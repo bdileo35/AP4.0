@@ -1,0 +1,27 @@
+/* font-family "Nanum Brush Script", cursive */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+.isoTipo {
+  font-family: "Nanum Brush Script", cursive;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.504);
+  border-radius: 15px;
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.subTtl {
+  color: rgb(29, 90, 182)
+}
+
+.main-article {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid lightslategray;
+  border-bottom: 1px solid lightslategray;
+}
