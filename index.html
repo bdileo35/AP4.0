@@ -2,357 +2,413 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- fuentes extra -->
-  <script src="https://kit.fontawesome.com/e9ca128ae6.js" crossorigin="anonymous"></script>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/nutrition_FILL0_wght400_GRAD0_opsz48.png" type="image/x-icon">
-  <!-- css propio   -->
-  <link rel="stylesheet" href="./css/styles.css">
-  <!-- cargamos el css de Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <title>Full Nutrition</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fuentes extra -->
+    <script src="https://kit.fontawesome.com/e9ca128ae6.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicdpv.png" type="image/x-icon">
+    <!-- css propio   -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- cargamos el css de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>TrabajoFinalGrupo2</title>
 </head>
+
 
 <body>
 
-  <div id="home" class="container">
-    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-sm-top">
-      <div class="container-fluid">
-        <span class="icono">
-          <i class="fa-brands fa-nutritionix fa-2xl"></i>
-        </span>
-        <span class="display-5 isoTipo">Full Nutrition</span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Nosotros">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#multistep">Contacto</a>
-            </li>
-          </ul>
-          <div class="ms-sm-5 d-flex column-gap-3">
-            <a href="#" target="_blank" class="text-black opacity-75"><i class="fa-brands fa-instagram fa-xl"></i></a>
-            <a href="#" target="_blank" class="text-black opacity-75"><i class="fa-brands fa-facebook fa-xl"></i></a>
-            <a href="#" target="_blank" class="text-black opacity-75"><i class="fa-brands fa-pinterest fa-xl"></i></a>
-            <a href="#" target="_blank" class="text-black opacity-75"><i class="fa-brands fa-google fa-xl"></i></a>
-            <a href="#" target="_blank" class="text-black opacity-75"><i class="fa-brands fa-linkedyn fa-xl"></i></a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <div id="Home" class="container mt-6">
 
-    
-    <!-- HERO SLIDER -->
-    <main class="hero">
-      <div id="carouselExampleCaptions" class="carousel slide mb-5">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
+        <!--NavBar DPV  -->
+        <nav class="navbar navbar-expand-md bg-body-tertiary sticky-sm-top">
+            <div class="container-fluid">
 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/graf01.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-sm-block">
-              <h5>Paraíso del chimpancé</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="./assets/logoDpv.png" width="50" alt="logotipo">
+                <span class="ms-3 isoTipo">Dirección Provincial de Vialidad</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--menu sitio -->
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Inicio1">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Origen1">Origen <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Historia1">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Reclamos1">Reclamos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Contacto1">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Nosotros1">Nosotros</a>
+                        </li>
+                    </ul>
+                    <div class="ms-sm-5 d-flex column-gap-3">
+                        <a href="https://www.instagram.com/dpvtucuman/" target="_blank" class="text-black opacity-75"><i
+                                class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://www.facebook.com/dpvtucuman?fref=ts" target="_blank"
+                            class="text-black opacity-75"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://www.youtube.com/channel/UC1u1tgmxMtYezSm2K54G1VA" target="_blank"
+                            class="text-black opacity-75"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+        </nav>
+        <div></div>
+
+        <div id="Inicio1" class=" mb-5">
+            <br>
+        </div>
+        <div id="Inicio" class="container">
+            <section class="row">
+
+                <!-- HERO SLIDER -->
+                <main class="hero">
+                    <div id="carouselExampleCaptions" class="carousel slide mb-5">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/slide1sm.jpeg" height: 400px class="d-block w-100"
+                                    alt="Camino a San Javier, Puente sobre Rio Muerto camino a San Javier">
+                                <div class="carousel-caption d-none d-sm-block">
+                                    <h5>Camino a San Javier</h5>
+                                    <p>Puente sobre Rio Muerto camino a San Javier. </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/slide2sm.jpg" class="d-block w-100"
+                                    alt="Amplicacion RPN° 307, Mejormiento de curva en ruta N° 307 a Tafi del Valle.">
+                                <div class="carousel-caption d-none d-sm-block">
+                                    <h5>Amplicacion RPN° 307</h5>
+                                    <p>Mejormiento de curva en ruta N° 307 a Tafi del Valle.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/slide3sm.jpg" class="d-block w-100"
+                                    alt="Nuevo Puente, Construccion nuevo puente sobre Rio Muerto">
+                                <div class="carousel-caption d-none d-sm-block">
+                                    <h5>Nuevo Puente</h5>
+                                    <p>Construccion nuevo puente sobre Rio Muerto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </main>
+            </section>
+
+            <!-- Alineacion de webmail y boleta  -->
+
+            <h3 style="text-align:center">Por nuestras rutas siempre junto a vos !!</h3>
+
+            <a class="pwebmail" href="http://www.mecontuc.gov.ar/correomecon/src/login.php" target="_blank">
+                <img border="0" alt="webmail" src="./assets/webmail.png" width="220" height="60">
+            </a>
+
+
+            <a class="boleta" href="https://boletas.dpvtucuman.gob.ar/" target="_blank">
+                <img border="0" alt="ReciboDigital" src="./assets/boleta.jpg" width="220" height="60">
+            </a>
+
+
+
+            <!-- Articulo Principal -->
+            <div id="Origen1" class="mb-5">
+                <br>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/graf02.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-sm-block">
-              <h5>A las estrellas</h5>
-              <p> Obcaecati autem recusandae nemo nulla dolorem corporis deleniti.</p>
+            <div class="container main-article">
+                <article class="row">
+
+                    <!-- ORIGEN COL de 12 -->
+                    <div class="col-lg-12">
+                        <h3 id="Origen" class="display-6 mb-5">El origen de la D.P.V. </h3>
+
+                        <figure class="my-5 d-flex flex-column float-md-start me-md-3">
+                            <img src="./assets/imagenInicio.jpg" alt="Dirección Provincial de Vialidad">
+                            <figcaption>Foto: P.H.C.</figcaption>
+                        </figure>
+
+                        <p>La Dirección Provincial de Vialidad de Tucumán es el organismo encargado de la Red Vial de la
+                            Provincia.</p>
+                        <p>Fue creada en 1932 por el Ingeniero Roberto Robles Mendilaharzu quien presidía el primer
+                            Directorio.
+                            En el año 1967 se sanciona la ley 3.485 que regula su actual funcionamiento.</p>
+
+                        <p>El edificio central de calle Mendoza 1.565 es la sede del Comité Ejecutivo integrado por El
+                            Administrador, El Secretario de Obras,
+                            El Secretario de Economía.</p>
+
+                        <p>Vialidad de la provincia es un Ente Autárquico con Fuentes de Financiación compuesta por:
+                            Fondos de
+                            Coparticipación Federal de Impuestos a los Combustibles, Aportes del Tesoro Provincial,
+                            Recursos Propios de
+                            Recaudación Directa, Ley 7.280, Ley 7.215 y Uso de Créditos.</p>
+
+                        <p>La red de caminos que administra, se extiende a lo largo del territorio provincial y
+                            totalizan entre rutas
+                            Primarias y Secundarias un Total de: 2.143 Km. Las Pavimentadas suman un total de: 1.066 Km.
+                            Las
+                            Enripiadas: suman 930 Km. y Las Naturales Suman: 147 Km</p>
+
+                        <p>El variado relieve de la provincia y la existencia de abundantes ríos y cursos de aguas hacen
+                            que cuente con
+                            un promedio aproximado de un Puente por cada 12 Km de ruta.</p>
+
+                </article>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/graf03.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-sm-block">
-              <h5>Colores verdaderos</h5>
-              <p>Reprehenderit sint quidem nemo dolorem asperiores pariatur debitis veniam repellat.</p>
+            <!-- </section> -->
+
+            <!-- Historia  -->
+            <div id="Historia1" class="mb-5">
+                <br>
             </div>
-          </div>
+            <div class="container main-article">
+                <article class="row">
+                    <h3 id="Historia" class="display-6 mb-5">Historia</h3>
+
+                   
+                    <div class="col-lg-4 bg-body-secondary">
+                        <figure class="my-5 d-flex flex-column historia">
+                            <img src="./assets/historia.jpeg" width="300" height="189" alt="Construccion de El Rulo">
+                            <figcaption class="text-lg-end">Foto: Biblioteca D.P.V.</figcaption>
+                        </figure>
+
+                        <p> <b>1930.- Por Ley Provincial N° 1.491</b>, del 22 de Julio, se crea el primer ente
+                            provincial dedicado a la
+                            actividad vial y a lo concerniente al turismo. Se denomina <b>JUNTA PROVINCIAL DE VIALIDAD Y
+                                TURISMO</b>. Con
+                            anterioridad, la actividad vial propiamente dicha estaba a cargo de la Dirección General de
+                            Obras
+                            Públicas de la Provincia.-</p>
+
+                    </div>
+
+                    <div class="col-lg-4 bg-body-secondary">
+                        <figure class="my-5 d-flex flex-column historia">
+                            <img src="./assets/historia1.jpeg" width="300" height="189" alt="Construccion de El Rulo">
+                            <figcaption class="text-lg-end">Foto: Biblioteca D.P.V.</figcaption>
+                        </figure>
+
+                        <p> <b>1935.- Por Ley Provincial 1.556</b> se dan por terminadas las funciones de la JUNTA y
+                            <b>se crea la DIRECCIÓN
+                                PROVINCIAL DE VIALIDAD.</b> Tal emprendimiento legislativo tiene por finalidad permitir
+                            a la provincia
+                            ajustarse al marco de lo establecido por la Ley Nacional n° 11.658 y percibir los Fondos de
+                            Ayuda
+                            Federal. La institución adquiere el carácter de autónoma y cuenta con fondos específicos.-
+                        </p>
+
+                    </div>
+
+                    <div class="col-lg-4 bg-body-secondary">
+                        <figure class="my-5 d-flex flex-column historia">
+                            <img src="./assets/historia2.jpg" width="300" height="189" alt="Construccion de El Rulo">
+                            <figcaption class="text-lg-end">Foto: Biblioteca D.P.V.</figcaption>
+                        </figure>
+
+                        <p> <b>1967.- Por Ley Provincial N° 3.485</b> el 8 de Setiembre se dicta la <b>CARTA ORGÁNICA DE
+                                LA DIRECCIÓN PROVINCIAL
+                                DE VIALIDAD</b>; en la misma se establecen los lineamientos de funcionamiento de la
+                            institución y sus
+                            competencias. Esta es la ley que rige a la DPV hasta el presente.-</p>
+
+                    </div>
+
+
+                </article>
+            </div>
+
+
+
+            <div id="Reclamos1" class="mb-5">
+                <br>
+            </div>
+            <div class="container  "><!--Sección Reclamos-->
+                <h3 id="lblReclamo" class="display-6 mt-6 mb-3">Reclamos</h3>
+                <section id="Reclamos" class="row">
+
+                    <div class="col-12 col-sm-11 col-md-8 col-lg-6">
+                        <!-- parte 1 -->
+                        <form id="frmReclamo1">
+                            <fieldset>
+                                <legend class="mb-3">1/2 Datos personales</legend>
+                                <div class="mb-3"><!--NombreCompleto-->
+                                    <label for="fullName" class="form-label">Nombre</label>
+                                    <input type="text" id="fullName" class="form-control">
+                                </div>
+                                <div class="mb-3"><!--Telefono-->
+                                    <label for="telefono" class="form-label">Teléfono</label>
+                                    <input type="tel" id="telefono" class="form-control">
+                                </div>
+                                <div class="mb-3"><!--Email-->
+                                    <label for="email" class="form-label">Correo electrónico</label>
+                                    <input type="email" id="email" class="form-control" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">Nunca compartiremos su email con un tercero
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="d-flex btnForm">
+                                <button id="btnSiguienteF1" type="button"
+                                    class="btn btn-outline-dark btnFormRec">Siguiente</button>
+                            </div>
+                        </form>
+                        <!-- parte 2 -->
+                        <form id="frmReclamo2" class="d-none">
+                            <fieldset>
+                                <legend class="mb-5 text-center">2/2 Datos sobre el reclamo</legend>
+                                <div class="mb-3">
+                                    <label for="ruta" class="form-label">Ruta Número</label>
+                                    <input type="text" id="ruta" class="form-control" aria-describedby="rutaHelp">
+
+                                    <div id="rutaHelp" class="form-text">Indique si es Nacional o Provincial</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="km" class="form-label">Kilómetro</label>
+                                    <input type="text" id="km" class="form-control" aria-describedby="kmHelp">
+                                    <div id="kmHelp" class="form-text">(Aproximado)</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fotoReclamo" class="form-label">Subir foto</label>
+                                    <input type="file" id="fotoReclamo" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="extraInfo" class="form-label">Información adicional</label>
+                                    <textarea id="extraInfo" class="form-control" cols="30" rows="3"></textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="checkbox" id="check" class="form-check-input">
+                                    <label for="check" class="form-check-label">Acepto Términos y Condiciones</label>
+                                </div>
+
+                            </fieldset>
+                            <div class="d-flex btnForm">
+                                <button id="btnPrevioF2" type="button"
+                                    class="btn btn-outline-dark btnFormRec">Previo</button>
+                                <button id="btnEnviarF2" type="submit" class="btn btn-outline-dark btnFormRec"
+                                    data-bs-toggle="modal" data-bs-target="#formModal" disabled>Enviar</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="formModal" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Mensaje enviado</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Gracias por colaborar con la DVP
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div id="Contacto1" class="mb-5">
+                <br>
+            </div>
+            <div class="container"><!--Sección Contacto-->
+                <h2 id="lblContacto" class="display-6 mb-3">Contacto</h2>
+
+                <section id="Contacto" class="row">
+                    <div class="col-12 col-sm-11 col-md-8 col-lg-6">
+                        <form id="frmContacto">
+                            <fieldset>
+                                <legend class="mb-3">Dejanos tu consulta</legend>
+                                <div class="mb-3"><!--NombreCompleto-->
+                                    <label for="fullName" class="form-label">Nombre</label>
+                                    <input type="text" id="fullName" class="form-control">
+                                </div>
+                                <div class="mb-3"><!--Telefono-->
+                                    <label for="telefono" class="form-label">Teléfono</label>
+                                    <input type="tel" id="telefono" class="form-control">
+                                </div>
+                                <div class="mb-3"><!--Email-->
+                                    <label for="email" class="form-label">Correo electrónico</label>
+                                    <input type="email" id="email" class="form-control" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">Nunca compartiremos su email con un tercero
+                                    </div>
+                                </div>
+                                <div class="mb-3"><!--Consulta-->
+                                    <label for="Consulta" class="form-label">Consulta</label>
+                                    <textarea class="form-control" name="Consulta" rows="6"></textarea>
+
+                                </div>
+
+                            </fieldset>
+                            <div>
+                                <button type="submit" class="btn btn-outline-dark">Enviar</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </section>
+
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </main>
-    <!-- MAIN ARTICLE -->
-    <div class="container main-article">
-      <article class="row">
-        <h2 class="my-5 display-2">Arte Urbano</h2>
-        <!-- LEFT COL -->
-        <div class="col-lg-8">
-          <h3 class="mt-5 mb-3">El origen del grafiti</h3>
-          <p>El arte urbano, conocido popularmente como Grafiti, tiene sus orígenes en el Imperio romano. Aunque pueda
-            parecerte algo estrictamente moderno, en aquella época ya se utilizaban las pintadas en las paredes con un
-            enfoque satírico o de crítica. Se buscaba ridiculizar algún elemento de la sociedad o de la política de la
-            época. Y, por tanto, constituía un atributo de denuncia.</p>
-
-          <p>Ese carácter crítico se mantuvo hasta que, en la década de 1960, en las calles de Filadelfia, Cornbread
-            empezó a pintar su nombre por las paredes para llamar la atención de una chica que le gustaba. La prensa
-            afroamericana, poco a poco, se hizo eco del fenómeno, que empezó a hacerse famoso e imitado. Posteriormente,
-            al inicio de los 70, Taki empezó a darle forma al manejo del aerosol, definiendo poco a poco el estilo.
-            Principalmente, eligiendo los lugares en los que pintar, como los vagones del metro</p>
-
-          <p>De 1976 a mediados de los 80 transcurre la era Die Hard. Un movimiento mucho más masivo, que no dejaba de
-            ensuciar y de pintar los trenes y los metros de las grandes ciudades. Hubo un boom y muchísimos jóvenes
-            empezaron a practicar este arte por las calles. Mantenía, entonces, toda su esencia vandálica y estaba
-            especialmente perseguido por la Policía. Hasta el punto de que en muchos lugares de Estados Unidos se
-            prohibió la venta de aerosoles a los jóvenes.</p>
-
-          <p>Finalmente, en los 90 aparece el movimiento del Tren Limpio. Los grafiteros tradicionales dejan de
-            enfocarse tanto en los trenes y muchas nuevas generaciones de artistas pasan a los muros de las calles y a
-            desarrollar nuevas formas de expresión. Esta sería la etapa en la que seguimos hoy en día, en la que puedes
-            encontrar una gran variedad de enfoques y de objetivos.</p>
-
-          <figure class="my-5 d-flex flex-column float-md-start me-md-3">
-            <img src="./assets/urban-art02.jpg" alt="grafiti: Tómalo con calma">
-            <figcaption>Foto: Romina Balbuena</figcaption>
-          </figure>
-
-          <h3 class="mt-5 mb-3">Estilos de grafiti</h3>
-          <p>Sin duda, los estilos del grafiti son muchos y muy complejos. Buena parte de su interés radica precisamente
-            en la libertad que tienen los artistas a la hora de crear. Y aunque es un poco difícil encasillar el trabajo
-            en categorías estables, sí que se pueden hacer algunas distinciones.</p>
-
-          <p>El <b>art graffiti</b>, por ejemplo, es el que se relaciona directamente con el hiphop, como una expresión
-            más de
-            esta cultura. Aquí habría varias subcategorías. El <b>tagging</b> es una de ellas, que consiste
-            principalmente
-            en
-            dejar la firma en espacios públicos de la ciudad. Otra modalidad dentro del art graffiti es el
-            <b>throw-up</b>, algo
-            más elaborado que un simple tag. Aquí hay ya una intención de dibujo, y en ocasiones se puede llegar a
-            realizar, incluso, con dos colores diferentes.
-          </p>
-
-          <p>Finalmente, dentro de la vertiente artística las piezas son los productos más reconocibles. Realmente, en
-            ellas se utiliza la pared o una superficie determinada como un espacio en el que reflejar una obra más
-            compleja, con distintos colores, formas y texturas. Se pueden hacer dibujos, letras, etc. Gozan de mucha más
-            libertad y son los que más ayudaron a que el grafiti dejara de considerarse puramente como un acto vandálico
-            y
-            se empezara a ver el carácter artístico que representaba. Artistas como <a class="text-black fw-bold
-          " href="https://missvan.com/" target="_blank"><em>Miss
-                Van</em></a> han utilizado las calles para
-            plasmar su fuerte estilo artístico, e incluso ahora se puede disfrutar de su arte en galerías de arte.</p>
-
-          <p>Otra rama del grafiti son los <b>lemas</b>. Estos motivos consisten, principalmente, en frases o eslóganes
-            con un
-            contenido político o social que se reproduce por las paredes representando una determinada ideología o con
-            un
-            carácter de protesta. Aunque también podemos ver dibujos pintados con una gran carga reivindicativa.
-            Actualmente, Banksy es uno de los grandes artistas urbanos que utiliza el espray para dejar fuertes mensajes
-            de protesta en las calles de numerosas ciudades de todo el mundo.</p>
-
-          <p>Finalmente, la <b>latrinalia</b> son los clásicos grafitis que se pueden hacer en los baños. Con
-            reflexiones,
-            dibujos, bromas o incluso insultos.</p>
-        </div>
-
-        <!-- RIGHT COL -->
-        <div class="col-lg-4 bg-body-secondary">
-          <figure class="my-5 d-flex flex-column">
-            <img src="./assets/urban-art01_aside.jpg" alt="grafiti: Mujer en pared de edificio">
-            <figcaption class="text-lg-end">Foto: Jadson Thomas</figcaption>
-          </figure>
-          <h3 class="mt-5 mb-3 text-danger text-md-center">El origen de la palabra</h3>
-          <p> Grafiti deriva del italiano graffiti, cuyo origen puede estar en el latín scariphare. Este
-            verbo
-            hace
-            referencia a la forma en la que, utilizando un punzón, este se clava en una tablilla para hacer grabados.
-            Era
-            la escritura de los antiguos. Y se refiere, también, a que es un gesto que nace derivado de la escritura,
-            puesto que en un principio se grababan palabras más que imágenes.</p>
-          <figure class="my-5 d-flex flex-column">
-            <img src="./assets/urban-art05_aside.jpg" alt="grafiti: El futuro es bueno">
-            <figcaption class="text-lg-end">Foto: Ficky</figcaption>
-          </figure>
-        </div>
-      </article>
     </div>
-
-    <!-- MULTI STEP FORM -->
-    <div class="container">
-      <h2 class="display-2">Contacto</h2>
-      <section id="multistep" class="row">
-
-        <div class="col-12 col-sm-11 col-md-8 col-lg-6">
-          <!-- step 1 -->
-          <form id="step1" class="d-none">
-            <fieldset>
-              <legend class="mb-5 text-center">1/3 ¿Quién envía el grafiti?</legend>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" id="email" class="form-control" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Nunca compartiremos su email con un tercero</div>
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" id="phone">
-              </div>
-              <div class="mb-3">
-                <label for="fullName" class="form-label">Nombre completo</label>
-                <input type="text" id="fullName" class="form-control">
-              </div>
-            </fieldset>
-            <div>
-              <button type="button" class="btn btn-outline-dark">siguiente</button>
-            </div>
-          </form>
-
-          <!-- step 2 -->
-          <form id="step2" class="d-none">
-            <fieldset>
-              <legend class="mb-5 text-center">2/3 Datos sobre el grafiti</legend>
-              <div class="mb-3">
-                <label for="location" class="form-label">¿Dónde está el grafiti?</label>
-                <input type="text" id="location" class="form-control" aria-describedby="locationHelp"
-                  placeholder="País, estado o provincia, localidad, etc...">
-                <div id="locationHelp" class="form-text">Indique dónde se tomó la foto</div>
-              </div>
-              <div class="mb-3">
-                <label for="graffitiFile" class="form-label">Subir foto</label>
-                <input type="file" id="graffitiFile" class="form-control">
-              </div>
-              <div class="mb-3">
-                <label for="extraInfo" class="form-label">Información adicional</label>
-                <textarea id="extraInfo" class="form-control" cols="30" rows="5"></textarea>
-              </div>
-            </fieldset>
-            <div>
-              <button type="button" class="btn btn-outline-dark">anterior</button>
-              <button type="button" class="btn btn-outline-dark">siguiente</button>
-            </div>
-          </form>
-          <!-- step 3 -->
-          <form id="step3">
-            <fieldset>
-              <legend class="mb-5 text-center">3/3 Autorización para usar la foto</legend>
-              <div class="mb-3">
-                <label for="disclaimer" class="form-label">Permiso de uso</label>
-                <textarea id="disclaimer" class="form-control" cols="30" rows="7" disabled>Autorizo a "Grafiti Tour" a utilizar el material que envío a través del presente formulario. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur, voluptatem doloremque nisi excepturi id, voluptas, accusamus vitae tenetur ipsum aperiam quas at? Exercitationem perferendis alias illo ab distinctio est?
-              Amet, eos maxime blanditiis nam ipsam quidem suscipit illo numquam inventore, ipsa quas? Placeat eum neque nobis mollitia. Doloribus veritatis itaque iusto, facere quae ducimus quos consequatur ullam nam eius.
-              </textarea>
-              </div>
-              <div class="mb-3">
-                <input type="checkbox" id="check" class="form-check-input">
-                <label for="check" class="form-check-label">Acepto las condiciones</label>
-              </div>
-            </fieldset>
-            <div>
-              <button type="button" class="btn btn-outline-dark">anterior</button>
-              <button type="submit" class="btn btn-outline-dark">enviar</button>
-            </div>
-          </form>
-
-        </div>
-
-      </section>
-
+    <div id="Nosotros1" class="mb-5">
+        <br>
     </div>
-    <div class="container">
-      <h2 class="display-5">Nosotros</h2>
-      <section id="Nosotros" class="row">
-        <div class="col-4 nos">
-          <div class="col-4 container cadaUno">Integrante 1</div>
-          <p>E-mail: asdfaf@ñaksfdaf.com</p>
+    <footer>
+        <div class="container bg-body-secondary "><!--Sección Nosotros-->
+            <h2 class="display-6">Nosotros</h2>
+            <section id="Nosotros" class="row  nos ">
+
+            </section>
         </div>
-        <div class="col-4 nos">
-          <div class="col-4 container cadaUno">Integrante 2</div>
-          <p>E-mail: asdfaf@ñaksfdaf.com</p>
-        </div>
-        <div class="col-4 nos">
-          <div class="col-4 container cadaUno ">Integrante 3</div>
-          <p>E-mail: asdfaf@ñaksfdaf.com</p>
-        </div>
-      </section>
-    </div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus fuga consequuntur maxime, ut voluptate ea
-      ducimus? Repudiandae, voluptates accusantium eligendi eos perspiciatis odit a voluptas atque, esse, nisi
-      repellendus maiores.
-      Ex a expedita facere, in repellat fugiat enim voluptatibus exercitationem ducimus impedit cumque explicabo saepe
-      eius! Recusandae tempora, deleniti error maxime rerum nobis, dolorum dicta aliquid eveniet, repellendus adipisci
-      labore?
-      Corrupti alias eveniet similique laborum eaque architecto! Architecto est beatae voluptates voluptatibus sed
-      ratione praesentium ad molestias, mollitia magni ducimus ea quia, voluptas voluptatum tenetur vel reprehenderit
-      deleniti, itaque aliquid.
-      Dolorem aliquam, natus explicabo vero porro iure facere ea reprehenderit quod quas atque quis ut laborum
-      distinctio fuga provident rerum optio dicta? Dolorem sed et distinctio consequuntur magni eum doloremque.
-      Non quis enim error ullam velit cupiditate dolorem, veritatis perspiciatis magnam molestiae quos eos quisquam, at
-      suscipit ex deserunt inventore praesentium tempora, quidem est? Nulla ullam ut expedita voluptas tempore.
-      Ipsa corrupti veniam, tenetur consectetur perferendis reiciendis aliquid. Sit quo provident corporis adipisci
-      voluptas labore ex deleniti id eos minus itaque, fuga nostrum nulla porro accusantium incidunt minima et? Porro!
-      Sapiente natus laborum voluptatibus nam aperiam voluptates tempore quaerat doloremque aliquid voluptatum
-      architecto veritatis accusamus quasi reprehenderit debitis praesentium repellendus, hic a modi earum odio autem
-      facilis vel dolorum. Magni.
-      Expedita architecto molestiae a voluptas sequi, nulla ut fugiat maiores voluptates magni at qui cum repudiandae
-      error libero quis reprehenderit, id iste aperiam accusamus? Quos dolore iusto culpa eaque ullam?
-      Beatae porro ea vitae, obcaecati exercitationem, amet corrupti suscipit saepe sed officiis consequuntur repellat
-      ex, veniam illo vero odio harum animi aliquam placeat quam! Deserunt velit cum quae omnis cupiditate?
-      Rem unde hic vel quas natus quaerat excepturi corrupti voluptatum ipsa inventore consectetur quae mollitia quasi
-      earum voluptas commodi, libero molestias sed velit expedita maiores. Sunt odio quidem nulla laborum!</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus fuga consequuntur maxime, ut voluptate ea
-      ducimus? Repudiandae, voluptates accusantium eligendi eos perspiciatis odit a voluptas atque, esse, nisi
-      repellendus maiores.
-      Ex a expedita facere, in repellat fugiat enim voluptatibus exercitationem ducimus impedit cumque explicabo saepe
-      eius! Recusandae tempora, deleniti error maxime rerum nobis, dolorum dicta aliquid eveniet, repellendus adipisci
-      labore?
-      Corrupti alias eveniet similique laborum eaque architecto! Architecto est beatae voluptates voluptatibus sed
-      ratione praesentium ad molestias, mollitia magni ducimus ea quia, voluptas voluptatum tenetur vel reprehenderit
-      deleniti, itaque aliquid.
-      Dolorem aliquam, natus explicabo vero porro iure facere ea reprehenderit quod quas atque quis ut laborum
-      distinctio fuga provident rerum optio dicta? Dolorem sed et distinctio consequuntur magni eum doloremque.
-      Non quis enim error ullam velit cupiditate dolorem, veritatis perspiciatis magnam molestiae quos eos quisquam, at
-      suscipit ex deserunt inventore praesentium tempora, quidem est? Nulla ullam ut expedita voluptas tempore.
-      Ipsa corrupti veniam, tenetur consectetur perferendis reiciendis aliquid. Sit quo provident corporis adipisci
-      voluptas labore ex deleniti id eos minus itaque, fuga nostrum nulla porro accusantium incidunt minima et? Porro!
-      Sapiente natus laborum voluptatibus nam aperiam voluptates tempore quaerat doloremque aliquid voluptatum
-      architecto veritatis accusamus quasi reprehenderit debitis praesentium repellendus, hic a modi earum odio autem
-      facilis vel dolorum. Magni.
-      Expedita architecto molestiae a voluptas sequi, nulla ut fugiat maiores voluptates magni at qui cum repudiandae
-      error libero quis reprehenderit, id iste aperiam accusamus? Quos dolore iusto culpa eaque ullam?
-      Beatae porro ea vitae, obcaecati exercitationem, amet corrupti suscipit saepe sed officiis consequuntur repellat
-      ex, veniam illo vero odio harum animi aliquam placeat quam! Deserunt velit cum quae omnis cupiditate?
-      Rem unde hic vel quas natus quaerat excepturi corrupti voluptatum ipsa inventore consectetur quae mollitia quasi
-      earum voluptas commodi, libero molestias sed velit expedita maiores. Sunt odio quidem nulla laborum!</p>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
-  </div>
-
-  <!-- carga del JavaScript de Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-
-  <script src="./js/index.js"></script>
-
-  <!-- carga del kit de FontAwesome -->
-  <script src="https://kit.fontawesome.com/76c9ca720a.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
