@@ -80,7 +80,6 @@ header {
   }
 }
 
-
   .section-title::after {
     content: '';
     display: block;
@@ -142,7 +141,7 @@ header {
     }
   }
 #nosotros {
-  background-color: #f5f5f5;
+  background-color: #ebe0e0;
   padding: 80px 0;
 }
 
